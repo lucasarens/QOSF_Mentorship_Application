@@ -1,5 +1,36 @@
 # QOSF_Mentorship_Application
 
+### Updates: 
+  1. I got accepted to the mentorship, you can (soon) take a look at all the projects (including mine) from this Cohort 4 [here](https://qosf.org/mentorship_cohort_4/).
+  ---
+  2. The problem we were required to solve:
+  
+  * Design a quantum circuit that considers as input the following vector of integers numbers: [1,5,7,10]
+
+* Returns a quantum state which is a superposition of indices of the target solution, obtaining in the output the indices of the inputs where two adjacent bits will always have different values. In this case the output should be: (|01> + |11>)/sqrt{2} , as the correct indices are 1 and 3.
+
+- 1 = 0001
+- **5 = 0101**
+- 7 = 0111
+- **10 = 1010**
+
+* Bonus: Design a general circuit that accepts vectors with random values of size 2^n with m bits in length for each element and finds the state(s) indicated above from an oracle.
+
+* Observation - the input vector:
+1) Doesn't have repeated integers.
+2) Always have two solutions.
+
+---
+  3. My solution got selected as a "Model Solution".
+
+![](screenshot.png)
+
+Maybe my solution can help future applicants or anyone who might want to solve this problem. So, on my next update I'm going to fix some typos (mostly grammar) and correct a small circuit draw.
+
+End of updates.
+
+---
+
 #### Dear evaluator,
 
 My main solution is on the jupyter notebook Task1_Lucas_Arenstein.ipynb .
